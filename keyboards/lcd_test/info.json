@@ -13,7 +13,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["B9", "B8", "B7", "B6"],
+        "cols": ["B9", "B8", "B15", "B14"],
         "rows": ["B5", "B4", "B3", "A15"]
     },
     "processor": "STM32F103",

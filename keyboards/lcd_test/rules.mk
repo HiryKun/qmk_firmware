@@ -1,4 +1,3 @@
 # This file intentionally left blank
-QUANTUM_PAINTER_ENABLE = yes
-QUANTUM_PAINTER_DRIVERS += st7735_spi
-SRC += 1_qgf.c
+OLED_ENABLE = yes
+OLED_TRANSPORT = i2c
