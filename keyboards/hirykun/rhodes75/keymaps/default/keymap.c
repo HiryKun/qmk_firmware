@@ -1,5 +1,7 @@
 #include QMK_KEYBOARD_H
+#ifdef OLED_ENABLE
 #include "animation.c"
+#endif
 
 /*按键映射*/
 /*关于keymap和层的解读，详见 https://docs.qmk.fm/#/feature_layers 和 https://docs.qmk.fm/#/keymap */
